@@ -1,0 +1,304 @@
+.LandingPage {
+    /* padding: 20px 40px; */
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.LandingPage .header .call {
+    display: flex;
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #535353;
+}
+
+.header {
+    top: 0;
+    position: fixed;
+    width: 85%;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+}
+
+.LandingPage .exp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #efefef;
+    padding: 24px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.LandingPage .exp2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 24px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.LandingPage .exp .item {
+    flex-basis: 20%;
+    padding: 12px;
+}
+
+.LandingPage .exp h3 {
+    color: #FF270D;
+    font-weight: 700;
+}
+
+.LandingPage .exp p {
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.16px;
+    font-weight: bold;
+}
+
+.LandingPage .header .call img {
+    margin-right: 20px;
+    width: 20px;
+}
+
+.LandingPage .header .enroll button {
+    width: 100%;
+    background: transparent linear-gradient(90deg, #FF6600 0%, #FF5204 0%, #FF270D 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    border: none;
+    height: 60px;
+}
+
+.sliderfrom .slick-dots {
+    bottom: 13px !important;
+}
+
+.LandingPage .sliderfrom {
+    margin-top: 20px;
+}
+
+.LandingPage .sliderfrom .loader {
+    background: #E1EFBA;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.LandingPage .sliderfrom .formSubmit {
+    background-color: #535353;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.intl-tel-input {
+    width: 100%;
+}
+
+.LandingPage .upper-content:hover {
+    box-shadow: 2px 3px 12px #e8e6e6;
+
+}
+
+
+
+.LandingPage .header-card {
+    background: #FEE8DA;
+    color: #FF6600;
+    padding: 10px 30px;
+    display: flex;
+
+}
+
+.intl-tel-input input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(159, 154, 154);
+    border-radius: 5px;
+}
+
+
+.LandingPage .submit {
+    background-color: #FF270D;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.tab-container {
+    display: flex;
+    border-bottom: 5px solid #ccc;
+    /* Default border color */
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #9b9999;
+}
+
+.tab.active {
+    margin-bottom: -4px;
+    border-bottom: 4px solid black;
+    color: black;
+}
+
+/* Add margin-right to all tabs except the last one */
+.tab:not(:last-child) {
+    margin-right: 20px;
+}
+
+.LandingPage .hh {
+    transform: translateY(0);
+}
+
+.LandingPage .card-couse {
+    flex-basis: 25%;
+    padding: 12px;
+}
+
+.LandingPage .card-couse .upper-content {
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+    flex-basis: 25%;
+    padding: 14px 18px 10px;
+    background: #ededed42;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 10px;
+    color: #535353;
+}
+
+.LandingPage .p .slick-dots {
+    bottom: 1px !important;
+}
+
+.LandingPage .footer {
+    background-color: #efefef;
+    text-align: center;
+
+}
+
+.LandingPage .footer .footer-main {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.LandingPage .form_info {
+    padding: 50px;
+}
+
+.LandingPage .form_info .form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.completed {
+    background-color: #535353;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.LandingPage .whatapp {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    margin-top: 20%;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        padding: 10px;
+    }
+
+    .LandingPage .header .call {
+        display: none;
+        font-size: 20px;
+        float: right;
+        margin-top: 10px;
+        font-weight: 600;
+        color: #535353;
+    }
+
+    .LandingPage .enroll {
+        display: none;
+    }
+
+    .LandingPage .sliderfrom {
+        margin-top: 27px;
+    }
+
+    .LandingPage .logo img {
+        width: 75%;
+    }
+
+    .LandingPage .sliderfrom .loader {
+        background: #E1EFBA;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .LandingPage .exp {
+        padding: 4px;
+    }
+
+    .LandingPage .exp .item {
+        flex-basis: 33.3%;
+        padding: 4px;
+    }
+
+    .LandingPage .exp .item p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .LandingPage .exp .item h3 {
+        text-align: center;
+    }
+
+    .LandingPage .exp2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+
+    .LandingPage .card-couse {
+        flex-basis: 100%;
+        padding: 12px;
+    }
+
+    .LandingPage .form_info {
+        padding: 2px;
+    }
+}
